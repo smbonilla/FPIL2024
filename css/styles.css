@@ -159,13 +159,13 @@ body {
 @media (max-width: 768px) {
     .gallery-container {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(10, 1fr);
+        grid-template-rows: repeat(11, 1fr);
     }
 }
 
 @media (min-width: 769px) {
     .gallery-container {
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(6, 1fr);
     }
 }
