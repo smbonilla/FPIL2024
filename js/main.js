@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function loadGalleryImages() {
         const galleryContainer = document.querySelector('.gallery-container');
-        const imageCount = 33;
+        const imageCount = 36;
         
         for (let i = 1; i <= imageCount; i++) {
             const img = document.createElement('img');
